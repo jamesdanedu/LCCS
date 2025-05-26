@@ -20,8 +20,8 @@ def calcMedian(numList):
 
 
 # initialise list of numbers
-numberList_1 = [11, 12, 14, 16, 16, 19, 21, 14, 13, 15, 16]
-numberList_2 = [11, 12, 14, 16, 16, 19, 20, 21, 14, 13, 15, 16]
+numberList_1 = [11, 12, 14, 16, 16, 19, 21, 14, 13, 15, 16]        # Odd number of elements
+numberList_2 = [11, 12, 14, 16, 16, 19, 20, 21, 14, 13, 15, 16]    # Even number of elements
 
 emptyList = []
 
@@ -46,6 +46,6 @@ print("The median of an odd list of numbers is", median)
 median = calcMedian(numberList_2)
 print("The median of an even list of numbers is", median)
 
-# Ensure an error is reported
+# Verify that an error is reported on this one
 median = calcMedian(emptyList)
 
