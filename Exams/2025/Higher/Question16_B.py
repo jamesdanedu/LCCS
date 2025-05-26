@@ -4,6 +4,9 @@ def calcMedian(numList):
         print("Error, list is empty, cannot calculate median")
         return None
     
+    numList.sort()  # should do this in the general case, it is already done in the main codeline here, but
+                    # it needs to be done to make the function generally useful
+    
     lenList = len(numList)
     #if length of list is odd
     if lenList % 2 == 1:
