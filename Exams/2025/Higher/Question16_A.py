@@ -74,40 +74,6 @@ def findLongestIncreasingRun(results):
     
     
 
-# Calculate and display the mean of a list of results
-results = [39,32,62,88,51,62,64,81,77] # Initialise the list
-N = len(results) # Initialise N to the number of results
-total = 0 # Initialise the running total to 0
-
-# Loop N times
-for i in range(N):
-    total = total + results[i] # Running total
-
-# Divide by the total number of results to give the mean
-#arithmetic_mean = total/9
-
-#part (ii)
-arithmetic_mean = total/N
-
-
-# Display the answer
-# Part (i)
-print(f"The mean percentage mark is {arithmetic_mean:.2f}")
-
-# part (iv)
-print("The grade for the average result is", get_grade(arithmetic_mean))
-
-# part (v)
-print("The lowest score is:", getMinGrade(results))
-
-print("The highest score is:", getMaxGrade(results))
-
-# part (vi)
-print("The number of scores below 40 is", getLTCount(40, results))
-print("The number of scores between 50 and 79 inclusive is", getIBTWCount(50, 79, results))
-
-# part (vii)
-print("The longest run of result increases is", findLongestIncreasingRun(results))
 
 
 
