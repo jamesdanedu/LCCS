@@ -23,7 +23,7 @@ MockExams/<provider>/<year>/Higher/Question16_B.py
 | SEC 2023 Higher | ✅ | ✅ | Number guessing game |
 | SEC 2024 Higher | ✅ | ✅ | Fruit machine |
 | SEC 2025 Higher | ✅ | ✅ | Grades / median |
-| SEC 2026 Higher | ⏳ placeholder (empty) | — | — |
+| SEC 2026 Higher | ✅ | ✅ | Readability score / word scoring game |
 | DEB Mock 2024 Higher | ✅ | ✅ | Rock-paper-scissors / palindromes |
 | Examcraft Mock 2021 Higher | ✅ | ✅ | Student results |
 
